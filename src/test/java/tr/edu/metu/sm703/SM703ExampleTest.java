@@ -22,4 +22,9 @@ public class SM703ExampleTest {
     public void checkEqualsForEquals(){
         assertEquals(sm703Example.checkEquals(2, 2), true);
     }
+
+    @Test
+    public void checkEqualsForZeroNullEquals(){
+        assertEquals(sm703Example.checkEquals(0, null), false);
+    }
 }

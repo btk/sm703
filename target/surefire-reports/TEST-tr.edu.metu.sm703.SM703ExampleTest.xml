@@ -1,67 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tr.edu.metu.sm703.SM703ExampleTest" time="0.029" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tr.edu.metu.sm703.SM703ExampleTest" time="0.058" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
-    <property name="java.specification.version" value="11"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/kircicegikorkmaz/Library/CloudStorage/OneDrive-SonoYazılımA.Ş/ODTÜ/devops - 3/SM703-Sample1/target/test-classes:/Users/kircicegikorkmaz/Library/CloudStorage/OneDrive-SonoYazılımA.Ş/ODTÜ/devops - 3/SM703-Sample1/target/classes:/Users/kircicegikorkmaz/.m2/repository/org/junit/jupiter/junit-jupiter/5.5.1/junit-jupiter-5.5.1.jar:/Users/kircicegikorkmaz/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.1/junit-jupiter-api-5.5.1.jar:/Users/kircicegikorkmaz/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/kircicegikorkmaz/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/kircicegikorkmaz/.m2/repository/org/junit/platform/junit-platform-commons/1.5.1/junit-platform-commons-1.5.1.jar:/Users/kircicegikorkmaz/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.5.1/junit-jupiter-params-5.5.1.jar:/Users/kircicegikorkmaz/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.1/junit-jupiter-engine-5.5.1.jar:/Users/kircicegikorkmaz/.m2/repository/org/junit/platform/junit-platform-engine/1.5.1/junit-platform-engine-1.5.1.jar:/Users/kircicegikorkmaz/.m2/repository/com/amazonaws/aws-lambda-java-core/1.2.0/aws-lambda-java-core-1.2.0.jar:/Users/kircicegikorkmaz/.m2/repository/com/amazonaws/aws-lambda-java-events/2.1.0/aws-lambda-java-events-2.1.0.jar:/Users/kircicegikorkmaz/.m2/repository/joda-time/joda-time/2.6/joda-time-2.6.jar:"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.class.path" value="/Users/buraktokak/Developer/sm703/target/test-classes:/Users/buraktokak/Developer/sm703/target/classes:/Users/buraktokak/.m2/repository/org/junit/jupiter/junit-jupiter/5.5.1/junit-jupiter-5.5.1.jar:/Users/buraktokak/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.1/junit-jupiter-api-5.5.1.jar:/Users/buraktokak/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/buraktokak/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/buraktokak/.m2/repository/org/junit/platform/junit-platform-commons/1.5.1/junit-platform-commons-1.5.1.jar:/Users/buraktokak/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.5.1/junit-jupiter-params-5.5.1.jar:/Users/buraktokak/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.1/junit-jupiter-engine-5.5.1.jar:/Users/buraktokak/.m2/repository/org/junit/platform/junit-platform-engine/1.5.1/junit-platform-engine-1.5.1.jar:/Users/buraktokak/.m2/repository/com/amazonaws/aws-lambda-java-core/1.2.0/aws-lambda-java-core-1.2.0.jar:/Users/buraktokak/.m2/repository/com/amazonaws/aws-lambda-java-events/2.1.0/aws-lambda-java-events-2.1.0.jar:/Users/buraktokak/.m2/repository/joda-time/joda-time/2.6/joda-time-2.6.jar:"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
     <property name="user.timezone" value=""/>
-    <property name="java.vm.specification.version" value="11"/>
+    <property name="java.vm.specification.version" value="1.8"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="TR"/>
-    <property name="sun.boot.library.path" value="/Users/kircicegikorkmaz/.sdkman/candidates/java/11.0.2-open/lib"/>
-    <property name="sun.java.command" value="/Users/kircicegikorkmaz/Library/CloudStorage/OneDrive-SonoYazılımA.Ş/ODTÜ/devops - 3/SM703-Sample1/target/surefire/surefirebooter10031093873554700209.jar /Users/kircicegikorkmaz/Library/CloudStorage/OneDrive-SonoYazılımA.Ş/ODTÜ/devops - 3/SM703-Sample1/target/surefire 2022-03-13T14-10-56_236-jvmRun1 surefire8810286616705128606tmp surefire_08957778001201136095tmp"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/buraktokak/Developer/sm703/target/surefire/surefirebooter9087658973412618288.jar /Users/buraktokak/Developer/sm703/target/surefire 2022-04-06T17-13-52_568-jvmRun1 surefire5175178194607051563tmp surefire_03708977138529976295tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/kircicegikorkmaz/Library/CloudStorage/OneDrive-SonoYazılımA.Ş/ODTÜ/devops - 3/SM703-Sample1/target/test-classes:/Users/kircicegikorkmaz/Library/CloudStorage/OneDrive-SonoYazılımA.Ş/ODTÜ/devops - 3/SM703-Sample1/target/classes:/Users/kircicegikorkmaz/.m2/repository/org/junit/jupiter/junit-jupiter/5.5.1/junit-jupiter-5.5.1.jar:/Users/kircicegikorkmaz/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.1/junit-jupiter-api-5.5.1.jar:/Users/kircicegikorkmaz/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/kircicegikorkmaz/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/kircicegikorkmaz/.m2/repository/org/junit/platform/junit-platform-commons/1.5.1/junit-platform-commons-1.5.1.jar:/Users/kircicegikorkmaz/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.5.1/junit-jupiter-params-5.5.1.jar:/Users/kircicegikorkmaz/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.1/junit-jupiter-engine-5.5.1.jar:/Users/kircicegikorkmaz/.m2/repository/org/junit/platform/junit-platform-engine/1.5.1/junit-platform-engine-1.5.1.jar:/Users/kircicegikorkmaz/.m2/repository/com/amazonaws/aws-lambda-java-core/1.2.0/aws-lambda-java-core-1.2.0.jar:/Users/kircicegikorkmaz/.m2/repository/com/amazonaws/aws-lambda-java-events/2.1.0/aws-lambda-java-events-2.1.0.jar:/Users/kircicegikorkmaz/.m2/repository/joda-time/joda-time/2.6/joda-time-2.6.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/buraktokak/Developer/sm703/target/test-classes:/Users/buraktokak/Developer/sm703/target/classes:/Users/buraktokak/.m2/repository/org/junit/jupiter/junit-jupiter/5.5.1/junit-jupiter-5.5.1.jar:/Users/buraktokak/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.1/junit-jupiter-api-5.5.1.jar:/Users/buraktokak/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/buraktokak/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/buraktokak/.m2/repository/org/junit/platform/junit-platform-commons/1.5.1/junit-platform-commons-1.5.1.jar:/Users/buraktokak/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.5.1/junit-jupiter-params-5.5.1.jar:/Users/buraktokak/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.1/junit-jupiter-engine-5.5.1.jar:/Users/buraktokak/.m2/repository/org/junit/platform/junit-platform-engine/1.5.1/junit-platform-engine-1.5.1.jar:/Users/buraktokak/.m2/repository/com/amazonaws/aws-lambda-java-core/1.2.0/aws-lambda-java-core-1.2.0.jar:/Users/buraktokak/.m2/repository/com/amazonaws/aws-lambda-java-events/2.1.0/aws-lambda-java-events-2.1.0.jar:/Users/buraktokak/.m2/repository/joda-time/joda-time/2.6/joda-time-2.6.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="/Users/kircicegikorkmaz"/>
+    <property name="user.home" value="/Users/buraktokak"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2019-01-15"/>
-    <property name="java.home" value="/Users/kircicegikorkmaz/.sdkman/candidates/java/11.0.2-open"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/buraktokak/Developer/sm703"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/Users/kircicegikorkmaz/Library/CloudStorage/OneDrive-SonoYazılımA.Ş/ODTÜ/devops - 3/SM703-Sample1"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/kircicegikorkmaz/Library/CloudStorage/OneDrive-SonoYazılımA.Ş/ODTÜ/devops - 3/SM703-Sample1/target/surefire/surefirebooter10031093873554700209.jar"/>
+    <property name="surefire.real.class.path" value="/Users/buraktokak/Developer/sm703/target/surefire/surefirebooter9087658973412618288.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="java.runtime.version" value="11.0.2+9"/>
-    <property name="user.name" value="kircicegikorkmaz"/>
+    <property name="java.runtime.version" value="1.8.0_292-b10"/>
+    <property name="user.name" value="buraktokak"/>
     <property name="path.separator" value=":"/>
     <property name="os.version" value="10.16"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/endorsed"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="java.vendor.version" value="18.9"/>
-    <property name="localRepository" value="/Users/kircicegikorkmaz/.m2/repository"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="/var/folders/2d/dy3jg67j22995dq8kxdzpt480000gn/T/"/>
-    <property name="java.version" value="11.0.2"/>
-    <property name="user.dir" value="/Users/kircicegikorkmaz/Library/CloudStorage/OneDrive-SonoYazılımA.Ş/ODTÜ/devops - 3/SM703-Sample1"/>
+    <property name="localRepository" value="/Users/buraktokak/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/0c/mmg8pjcx6bn4c40k4_wpvhn00000gn/T/"/>
+    <property name="java.version" value="1.8.0_292"/>
+    <property name="user.dir" value="/Users/buraktokak/Developer/sm703"/>
     <property name="os.arch" value="x86_64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
     <property name="sun.os.patch.level" value="unknown"/>
-    <property name="java.library.path" value="/Users/kircicegikorkmaz/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
-    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.library.path" value="/Users/buraktokak/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.vm.version" value="11.0.2+9"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vm.version" value="25.292-b10"/>
+    <property name="java.ext.dirs" value="/Users/buraktokak/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
-    <property name="java.class.version" value="55.0"/>
+    <property name="java.class.version" value="52.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="checkEqualsForNotEquals" classname="tr.edu.metu.sm703.SM703ExampleTest" time="0.02"/>
+  <testcase name="checkEqualsForZeroNullEquals" classname="tr.edu.metu.sm703.SM703ExampleTest" time="0.034"/>
+  <testcase name="checkEqualsForNotEquals" classname="tr.edu.metu.sm703.SM703ExampleTest" time="0"/>
   <testcase name="checkEqualsForEquals" classname="tr.edu.metu.sm703.SM703ExampleTest" time="0"/>
-  <testcase name="checkEqualsForTwoNulls" classname="tr.edu.metu.sm703.SM703ExampleTest" time="0.001"/>
+  <testcase name="checkEqualsForTwoNulls" classname="tr.edu.metu.sm703.SM703ExampleTest" time="0"/>
 </testsuite>

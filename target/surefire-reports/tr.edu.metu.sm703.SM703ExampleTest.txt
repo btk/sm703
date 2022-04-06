@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: tr.edu.metu.sm703.SM703ExampleTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in tr.edu.metu.sm703.SM703ExampleTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 s - in tr.edu.metu.sm703.SM703ExampleTest
