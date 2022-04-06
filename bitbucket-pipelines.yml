@@ -1,0 +1,24 @@
+image: maven:3.6.1
+
+pipelines:
+  default:
+    - step:
+        name: Build
+        caches:
+          - maven
+        script: # Modify the commands below to build your repository.
+          - mvn -B clean verify # -B batch mode makes Maven less verbose
+          - cp target/SM703-1.0-SNAPSHOT.jar ./sm703.jar
+        artifacts:
+          - sm703.jar
+    - step:
+        name: Deploy
+        script:
+          - pipe: atlassian/aws-lambda-deploy:0.5.0
+            variables:
+              AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+              AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+              AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+              FUNCTION_NAME: 'arn:aws:lambda:eu-west-1:925142530041:function:sm703Lambda'
+              COMMAND: 'update'
+              ZIP_FILE: 'sm703.jar'
